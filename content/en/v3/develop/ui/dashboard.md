@@ -26,7 +26,7 @@ and it will open the dashboard using the basic authentication login and password
 
 ![](/images/jx-pipelines-visualizer/v1-home.png)
 
-### Viewing from a Pull Request
+### Viewing from a Pull Request or from a release
 
 If you create a Pull Request on a git repository you have [created or imported](/v3/develop/create-project/) in Jenkins X you should see a link on the Pull Request. 
 
@@ -34,7 +34,12 @@ Here's an example - see the **Details** link on the right of the Pull Request pi
 
 <img src="/images/quickstart/pr-link.png" class="img-thumbnail">
 
-If you click the **Details** link that should open the [jx-pipelines-visualizer](https://github.com/jenkins-x/jx-pipelines-visualizer) UI for this pipeline build.
+And in the home page of the repository, by clicking on the little orange icon preceding the last commit id you'll open the view of the running pipeline(s) on your release with the link to their respective **Details** link(s):
+
+c8021ccecb314584b53633f51140dd0f.png![image](https://user-images.githubusercontent.com/52448671/114937449-1a387280-9e3e-11eb-8af0-c8011de33a7b.png)  
+  
+
+Clicking the **Details** link should open the [jx-pipelines-visualizer](https://github.com/jenkins-x/jx-pipelines-visualizer) UI for this pipeline build.
 
 ![](/images/jx-pipelines-visualizer/v1-pipeline-success.png)
 
